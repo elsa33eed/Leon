@@ -4,4 +4,4 @@ const imageArr = ["01.png", "02.png", "03.png", "04.png"]; // make array with ba
 setInterval(() => {
   const randomNum = Math.floor(Math.random() * imageArr.length); // make random number
   background.style.backgroundImage = 'url("image/' + imageArr[randomNum] + '")'; //change background
-}, 10000);
+}, 20000);
