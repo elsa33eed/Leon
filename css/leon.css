@@ -16,6 +16,32 @@ body {
   margin-right: auto;
 }
 /* end global rules */
+
+/* Start scroll to top button */
+.up {
+  position: fixed;
+  right: -50px;
+  bottom: 15px;
+  z-index: 500;
+  background-color: var(--main-color);
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.up.show {
+  right: 15px;
+}
+/* End scroll to top button */
+
+/* start varibales */
 :root {
   --main-color: #10cab7;
   --sec-color: #f6f6f6;
@@ -25,9 +51,8 @@ body {
   --section-padding: 60px;
   --line-height: 1.8;
 }
-/* start varibales */
-
 /* end varibales */
+
 /* add media quries */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
