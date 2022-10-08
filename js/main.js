@@ -6,7 +6,7 @@ setInterval(() => {
   background.style.backgroundImage = 'url("image/' + imageArr[randomNum] + '")'; //change background
 }, 20000);
 
-// animate data progress
+// animate skill section progress
 let ourSkills = document.querySelector(".skills");
 window.onscroll = function () {
   let positionTop = ourSkills.offsetTop;
