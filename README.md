@@ -1,5 +1,6 @@
 <div align='center'><img style="width:30%" src='./image/logo.png'/></div>
 
+<<<<<<< HEAD
 <h2>About the project</h2>
 
   <p>A <b>Leon</b> is a responsive website template built with HTML and CSS. In addition, Add some future with javascript. It is a modern and minimalist template that is perfect for a variety of websites, including portfolios, blogs, and business websites.
@@ -31,3 +32,11 @@ The template features a clean and uncluttered design with a focus on user experi
 <div align='center'>
 <img src='./image/Home-page.png'/>
 </div>
+=======
+### UPDATE
+01) Add JS File
+02) Change Background Automaticlly
+03) Add Our Skill Section 
+04) Animate Our Skill Progress
+05) Add Scroll To Top Button
+>>>>>>> 4d70956831fac2f2b377fda5f18fb7a9da657e53
